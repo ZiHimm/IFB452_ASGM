@@ -39,7 +39,7 @@ contract EmergencyAccess {
     event ProviderRegistered (address provider, Role role);
     event RecordSubmitted (string patientID, string recordHash);
     event AccessGranted (address Provider, string patientID, Role role, uint startTime);
-    event AccessRevoked (address provider, string patientID, uint timestamp);
+    event AccessRevoked (address Provider, string patientID, uint timestamp);
 
     //Constructors and Modiefiers
     constructor(){
